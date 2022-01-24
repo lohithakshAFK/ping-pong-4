@@ -1,0 +1,64 @@
+#heading{
+    width:80%;
+    background-color:black;
+    color:white;
+    box-shadow:5px 5px 5px white;
+    padding:30px;
+    text-align:center;
+    margin:20px;
+    font-size:30px !important;
+    border-radius:75px;
+}
+
+#heading:hover{
+    background-color:white;
+    color:black;
+    box-shadow:5px 5px 5px black;
+}
+
+body{
+    background-size:cover;
+}
+
+#instructions{
+    
+  color:cyan;
+  background-color:black;
+  margin-left:10px;
+  font-size:10px;
+  
+
+}
+
+.play{
+    width:30%;
+    margin-top:20px;
+    border-radius:75px;
+    color:white;
+    background-color:red;
+    box-shadow:5px 5px 5px yellow;
+    padding:10px;
+}
+
+#footer{
+    bottom:0;
+    margin:0;
+    background-color:grey;
+    color:white;
+    line-height:3;
+    width:100%;
+    position:fixed;
+    
+}
+
+.modal-body{
+    text-align:left;
+}
+
+canvas{
+    border-radius:10px;
+    border:2px white dashed;
+    margin-top:105px;
+    box-shadow:5px 5px 5px black;
+}
+
