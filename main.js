@@ -3,7 +3,7 @@ rightWristY = "";
 right_wrist_score = 0;
 
 function setup(){
-    canvas = createCanvas(250,250);
+    canvas = createCanvas(700,400);
     canvas.center();
     video = createCapture(VIDEO);
     video.hide();
@@ -14,7 +14,7 @@ function setup(){
 }
 
 function draw(){
-    image(video,0,0,250,250);
+    image(video,0,0,700,400);
     fill("red");
     stroke("red");
 
